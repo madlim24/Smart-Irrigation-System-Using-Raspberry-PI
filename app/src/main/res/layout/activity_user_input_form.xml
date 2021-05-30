@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/simplewallpaper"
+    tools:context=".UserInputForm">
+
+    <EditText
+        android:id="@+id/SoilMoisture"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Soil Moisture Value"
+        android:textColorHint="@color/c2"
+        android:textColor="@color/c2"
+        android:textSize="18sp"
+        android:layout_marginTop="200dp"
+        android:inputType="numberDecimal"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/Humidity"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Humidity Value"
+        android:textColorHint="@color/c2"
+        android:textColor="@color/c1"
+        android:textSize="18sp"
+        android:layout_marginTop="250dp"
+        android:inputType="numberDecimal"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/Temperature"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Temperature Value"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/c2"
+        android:textColor="@color/c1"
+        android:textSize="18sp"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="Insert Your Sensors Values Here"
+        android:textSize="25sp"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/c1"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Send Data"
+        android:layout_marginTop="370dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="end"
+    android:id="@+id/drawer"
+    android:background="@drawable/gradient_2"
+    tools:context=".IrrigationStatus">
+
+    <RelativeLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"/>
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="290dp"
+            app:srcCompat="@drawable/rectangle" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:layout_marginHorizontal="40dp"
+            android:text="FORMAT: YEAR-MONTH-DAY HOUR:MINUTES:SECONDS"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="320dp"
+            android:text="abcd"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/aclonica"
+            android:text="LAST IRRIGATION TIME"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textFontWeight="700"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/hpunk"
+            android:letterSpacing="0.03"
+            android:lineSpacingExtra="3dp"
+            android:padding="10sp"
+            android:textColor="@android:color/white"
+            android:text="Make sure to check your messages for water tank level notification regularly" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="530dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/hpunk"
+            android:letterSpacing="0.03"
+            android:lineSpacingExtra="3dp"
+            android:padding="10sp"
+            android:textColor="@android:color/white"
+            android:text="Compare your sensor reading with weather API provided to make sure there are minimal differences between both of it" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationView"
+        app:menu="@menu/menu_item"
+        app:headerLayout="@layout/header"
+        android:background="#FFFFFF"
+        android:layout_gravity="start"
+        app:itemTextColor="#000000"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

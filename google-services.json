@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "511646385924",
+    "firebase_url": "https://logininterface-22c3d.firebaseio.com",
+    "project_id": "logininterface-22c3d",
+    "storage_bucket": "logininterface-22c3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511646385924:android:b13c865d948e1b246e7251",
+        "android_client_info": {
+          "package_name": "com.example.logininterface"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511646385924-feakblvb592fk54r9q254nvon6keefps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.logininterface",
+            "certificate_hash": "912f4992a47fd2e963e1f35d1c33f0ced592d116"
+          }
+        },
+        {
+          "client_id": "511646385924-0p0o8i2cijupq4613sd183efi522htkk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7l2NLUyZuVc6sSqTKfB1euCVKO7aMTk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511646385924-0p0o8i2cijupq4613sd183efi522htkk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
